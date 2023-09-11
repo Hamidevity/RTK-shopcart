@@ -1,0 +1,90 @@
+.container{
+    padding: 0 100px;
+    height: 80px;
+    background-color: #FFFFFF;
+    display: flex;
+    /* box-shadow:var(---box-shadow); */
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 20px;
+}
+.container h1 {
+    color: #EE384E;
+}
+.header_button{
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.searchIcon{
+    font-size: 17px;
+    margin-right: 10px;
+    color: #9E9FB1;
+}
+.header_searchBar {
+    border-radius: 15px 0px 0 15px;
+    padding: 15px;
+    width: 450px;
+    border: none;
+    background:#F1F2F4;
+    outline: none;
+}
+.header_searchBar:focus {
+    font-size: 15px;
+    font-family: yekan , sans-serif;
+
+}
+.header_searchBar::placeholder{
+    font-size: 15px;
+    font-family: yekan , sans-serif;
+    text-align: center;
+    color: #9E9FB1;
+}
+.header_divLogin{
+    width: 170px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+    border-radius: 10px;
+    border: 2px solid #F1F2F4;
+}
+.header_divLink{
+    display: flex;
+}
+.header_divLink span{
+    margin: 4px;
+    font-size: 15px;
+    font-weight: 400;
+}
+.header_loginIcon{
+    font-size: 23px;
+    margin-left: 5px;
+}
+.header_loginContainer{
+    display: flex;
+
+}
+
+.link_cartIcon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 30px;
+}
+.cartIcon{
+    font-size: 22px;
+}
+.hr{
+    margin-right: 30px;
+}
+@media only screen and (max-width: 600px) {
+    .container{
+        display: none;
+    }
+}

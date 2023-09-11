@@ -1,0 +1,40 @@
+@font-face {
+    font-family: 'yekan';
+    font-style: normal;
+    font-weight:100 ;
+    src: local('CustomFont1Name'),
+         url('../fonts/YekanBakh-Light.woff2') format('woff'),
+         url('../fonts/YekanBakh-Light.woff2') format('woff2');
+}
+@font-face {
+    font-family: 'yekan';
+    font-style: normal;
+    font-weight:200 ;
+    src: local('CustomFont1Name'),
+         url('../fonts/YekanBakh-Regular.woff2') format('woff'),
+         url('../fonts/YekanBakh-Regular.woff2') format('woff2');
+}
+@font-face {
+    font-family: 'yekan';
+    font-style: normal;
+    font-weight:600 ;
+    src: local('CustomFont1Name'),
+         url('../fonts/YekanBakh-Heavy.woff2') format('woff'),
+         url('../fonts/YekanBakh-Heavy.woff2') format('woff2');
+}
+@font-face {
+    font-family: 'yekan';
+    font-style: normal;
+    font-weight:400 ;
+    src: local('CustomFont1Name'),
+         url('../fonts/YekanBakh-Bold.woff2') format('woff'),
+         url('../fonts/YekanBakh-Bold.woff2') format('woff2');
+}
+@font-face {
+    font-family: 'yekan';
+    font-style: normal;
+    font-weight: 700;
+    src: local('CustomFont1Name'),
+         url('../fonts/YekanBakh-Fat.woff2') format('woff'),
+         url('../fonts/YekanBakh-Fat.woff2') format('woff2');
+}
